@@ -17,7 +17,7 @@ This is a simple SDL-based game written in C. The project includes basic functio
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/sdl-game.git
+   git clone https://github.com/BlagojeBlagojevic/Tile-Based-Plaftormer-Engine.git
    cd sdl-game
    ```
 
