@@ -6,6 +6,7 @@ i32 playerPosX = 1;
 i32 playerPosY = 9;
 i32 playerVelX = 0;
 i32 playerVelY = 0;
+i32 JMP_SIZE   = 5;
 //i32 playerOfsetX = WIDTH  / 2 + tileWidth  / 2;
 //i32 playerOfsetY = HEIGHT / 2 + tileHeight / 2;
 i32 playerOfsetX = WIDTH   / 2;
@@ -31,7 +32,7 @@ static inline void renderPlayer(void){
 static inline void playerInputHandling(const u8* stateOfKeyboard){
 	
 	if(stateOfKeyboard[SDL_SCANCODE_W])
-		playerVelY-=5;
+		playerVelY-=JMP_SIZE;
 	if(stateOfKeyboard[SDL_SCANCODE_A])
 		playerVelX--;
 	if(stateOfKeyboard[SDL_SCANCODE_D])
