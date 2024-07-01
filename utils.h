@@ -64,7 +64,7 @@ const i32 tileHeight = 80;
 const i32 visibleTilesX = WIDTH / tileWidth;
 const i32 visibleTilesY = HEIGHT / tileHeight;
 
-#define FPS (u64)30
+#define FPS (u64)15
 #define TARGETTIME (u64)(1000 / FPS)
 u64 curentTime;
 u64 passedTime;
