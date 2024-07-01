@@ -116,8 +116,8 @@ static inline void gameLoop() {
 	while(!isClose) {
 		curentTime = SDL_GetTicks64();
 		loopIteratonCounter++;
-		//if(!loopIteratonCounter%2)
-			inputHandler();	
+		//if(loopIteratonCounter%3 != 0)
+		inputHandler();	
 		eventHandler();
 		mainRenderer();
 		passedTime = SDL_GetTicks64() - curentTime;
