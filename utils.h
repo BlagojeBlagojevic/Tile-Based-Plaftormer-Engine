@@ -59,8 +59,8 @@ SDL_Renderer *renderer;
 u8 isClose = FALSE;
 
 
-const i32 tileWidth  = 80;
-const i32 tileHeight = 80;
+const i32 tileWidth  = 100;
+const i32 tileHeight = 100;
 const i32 visibleTilesX = WIDTH / tileWidth;
 const i32 visibleTilesY = HEIGHT / tileHeight;
 
