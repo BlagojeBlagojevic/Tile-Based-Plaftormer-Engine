@@ -16,7 +16,7 @@
 #include<SDL2/SDL_clipboard.h>
 #include<SDL2/SDL_events.h>
 #include<SDL2/SDL_image.h>
-#include<SDL2/SDl_timer.h>
+//#include<SDL2/SDl_timer.h>
 #include<SDL2/SDL_keyboard.h>
 #include<SDL2/SDL_scancode.h>
 #undef main
